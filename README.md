@@ -1,2 +1,2 @@
 # Roman-Numerals-React
-convert number to roman numerals
+real time conversion of numbers to roman numerals
