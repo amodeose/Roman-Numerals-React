@@ -40,7 +40,7 @@ class App extends Component {
           <Row>
           <Col xs="3"></Col>
             <Col xs="6">
-              <h1>{this.state.number.toString().length <= 4 ? convertToRoman(this.state.number) : "Number too high!"}</h1>
+              <h1>{convertToRoman(this.state.number)}</h1>
             </Col>
             <Col xs="3"></Col>
           </Row>
