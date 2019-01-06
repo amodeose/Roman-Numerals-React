@@ -31,7 +31,7 @@ class App extends Component {
           <Row>
             <Col xs="3"></Col>
             <Col xs="6">
-              <Input onChange={this.onChange} style={{height: 70, fontSize: "2em", textAlign: "center"}} placeholder="Enter number to be converted."></Input>
+              <Input maxlength={4} onChange={this.onChange} style={{height: 70, fontSize: "2em", textAlign: "center"}} placeholder="Enter number to be converted."></Input>
             </Col>
             <Col xs="3"></Col>
           </Row>
